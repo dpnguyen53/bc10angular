@@ -1,0 +1,16 @@
+======= Buoi 1 =======
+* Component
+    - lệnh tạo: ng g c "Ten Component"
+
+* Module
+    - lệnh tạo: ng g m "Ten Module"
+    - lệnh tạo: ng g c "Ten Component" --module="Ten folder"
+        => Tạo component bỏ vào module mong muốn
+
+
+* DataBinding
+    - OnewayBinding
+        + Interpolation (text): {{}}
+        + PropertyBinding: []
+        + EventBinding: ()
+    - TwowayBinding

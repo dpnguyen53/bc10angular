@@ -1,0 +1,4 @@
+<h1>*OnewayBinding</h1>
+<div>{{fullname}}</div>
+<input [value]="fullname" #thamso/>
+<button class="btn btn-success" (click)="eventBinding(thamso.value)">EventBinding</button>
