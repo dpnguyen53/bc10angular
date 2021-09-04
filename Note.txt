@@ -1,3 +1,5 @@
+link repo: https://github.com/dpnguyen53/bc10angular
+
 ======= Buoi 1 =======
 * Component
     - lệnh tạo: ng g c "Ten Component"
@@ -14,3 +16,17 @@
         + PropertyBinding: []
         + EventBinding: ()
     - TwowayBinding
+
+======= Buoi 2 =======
+    - DataBinding
+        + TwowayBinding
+    -Directive
+        + Component
+        + structural directive
+            + ngIf
+            + ngSwitch
+            + ngFor
+        + attribute directive
+            + ngClass
+            + ngStyle
+            + attribute directive (tự định nghĩa)

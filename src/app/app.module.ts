@@ -10,6 +10,8 @@ import { Baitap1FooterComponent } from './baitap1/baitap1-footer/baitap1-footer.
 
 import {Baitap2Module} from "./baitap2/baitap2.module";
 import { DataBindingModule } from './data-binding/data-binding.module';
+import { StructuralDirectiveModule } from './structural-directive/structural-directive.module';
+import { AttributeDirectiveModule } from './attribute-directive/attribute-directive.module';
 
 @NgModule({
   //khai báo những component mà nó quản lý
@@ -25,7 +27,9 @@ import { DataBindingModule } from './data-binding/data-binding.module';
   imports: [
     BrowserModule,
     Baitap2Module,
-    DataBindingModule
+    DataBindingModule,
+    StructuralDirectiveModule,
+    AttributeDirectiveModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,21 @@
+<h1>*ngIf</h1>
+<div *ngIf="status">Cybersoft</div>
+<button class="btn btn-info" (click)="toggle()">Toggle</button>
+
+<div *ngIf="isLogin; else PleaseLogin">
+  <h1>Xin chào Cybersoft</h1>
+  <button class="btn btn-danger" (click)="logout()">Logout</button>
+</div>
+
+<ng-template #PleaseLogin>
+  <div>
+    <h1>Vui long dang nhap</h1>
+    <button class="btn btn-success" (click)="login()">Login</button>
+  </div>
+</ng-template>
+
+<ng-template #Template>
+    <div>Noi dung Template</div>
+</ng-template>
+
+<div *ngTemplateOutlet="Template"></div>

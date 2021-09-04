@@ -1,0 +1,8 @@
+<h1>*ngFor</h1>
+<ul>
+  <ng-container *ngIf="listUser">
+    <li *ngFor="let user of listUser; let stt = index">
+      {{ stt + 1 }}. {{ user.name }} - {{ user.age }}
+    </li>
+  </ng-container>
+</ul>
