@@ -11,9 +11,21 @@ export class AttributeDirectiveComponent implements OnInit {
 
   bgColor: string = "red";
 
+  listProduct: any = [];
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addProduct(maSP:string, tenSP: string, giaSP: string){
+    const product = {
+      maSP,
+      tenSP,
+      giaSP
+    }
+
+    this.listProduct.push(product);
   }
 
 }

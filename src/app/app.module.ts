@@ -12,6 +12,8 @@ import {Baitap2Module} from "./baitap2/baitap2.module";
 import { DataBindingModule } from './data-binding/data-binding.module';
 import { StructuralDirectiveModule } from './structural-directive/structural-directive.module';
 import { AttributeDirectiveModule } from './attribute-directive/attribute-directive.module';
+import { InteractionModule } from './interaction/interaction.module';
+import { BookingBusModule } from './booking-bus/booking-bus.module';
 
 @NgModule({
   //khai báo những component mà nó quản lý
@@ -29,7 +31,9 @@ import { AttributeDirectiveModule } from './attribute-directive/attribute-direct
     Baitap2Module,
     DataBindingModule,
     StructuralDirectiveModule,
-    AttributeDirectiveModule
+    AttributeDirectiveModule,
+    InteractionModule,
+    BookingBusModule
   ],
   providers: [],
   bootstrap: [AppComponent]

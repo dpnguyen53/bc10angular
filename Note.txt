@@ -30,3 +30,10 @@ link repo: https://github.com/dpnguyen53/bc10angular
             + ngClass
             + ngStyle
             + attribute directive (tự định nghĩa)
+
+======= Buoi 3 =======
+    - Interaction
+        + Input: truyền dữ liệu từ component cha => component con
+        + Output: truyền dữ liệu từ component con => component cha
+        + ViewChild: Dom Component
+        + ViewChildren: Dom nhiều Component
